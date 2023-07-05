@@ -59,5 +59,5 @@ server.listen(8000);
 // print the server port dinamically
 console.log(`Listening to requests on port ${server.address().port}`);
 
-//how to uninstall a package from npm
-// npm uninstall <package name>
+//how to checkout npm files is ok
+
