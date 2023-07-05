@@ -1,6 +1,7 @@
 const fs = require('fs');
 const http = require('http');
 const url = require('url');
+const slugify = require('slugify');
 const replaceTemplate = require('./modules/replaceTemplate');
 
 
@@ -58,6 +59,4 @@ const server = http.createServer((req, res) => {
 server.listen(8000);
 // print the server port dinamically
 console.log(`Listening to requests on port ${server.address().port}`);
-
-//how to checkout npm files is ok
 
